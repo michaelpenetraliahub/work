@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>csed,org.ng/start-studio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'img/logo.jpg' %}" rel="icon">
+  <link href="{% static 'img/logo.jpg' %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/remixicon/remixicon.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'css/style.css' %}" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+      <h1 class="logo me-auto"><a href=""><img src="{% static 'img/logo.jpg' %}" alt=""  style="height: 100px; width: 90px;"></a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="static/img/logo.png" alt=""></a>-->
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About Us</a></li>
+          <li><a class="nav-link scrollto" href="#services">Programs</a></li>
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <li><a href="{% url 'blog' %}">Blog</a></li>
+          </li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <a href="#team" class="get-started-btn scrollto">Get Started</a>
+    </div>
+  </header><!-- End Header -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container" data-aos="zoom-out" data-aos-delay="100">
+      <div class="row">
+        <div class="col-xl-6">
+          <!-- <h2 style="font-size: large;">Igniting Innovation, Shaping Ideas into Startups,</h2> -->
+          <!-- <h2 style="font-size: large;">Accelerating Inclusive Economic Growth</h2> <br> -->
+
+          <h1 style="font-size: x-large;">Welcome to Start Studio Incubator!</h1><br>
+          <p> 
+            <small style="color: aliceblue;">At Start Studio Incubator, we believe in the power of entrepreneurship and innovation to shape the future.
+              We are a beacon of support and guidance for aspiring and existing entrepreneurs, offering comprehensive
+              programs that empower them to turn their disruptive ideas into thriving businesses. With a focus on
+              sustainability, market viability, and strategic growth, we pave the way for the next generation of
+              groundbreaking startups..</small>
+          </p>
+          <p>
+            <small style="color: aliceblue;">Our incubator, established by the Center for Strategic Enterprise Development (CSED) Ltd/GTe with
+            support from Diaspora Volunteers Oversea (DVO), provides invaluable resources, mentorship, and a
+            vibrant ecosystem that propels entrepreneurs towards success. Whether you have a disruptive tech or
+            non-tech concept, Start Studio Incubator has the right program to support you at every stage of your
+            entrepreneurial journey.</small>
+          </p>
+            <p>
+              <small style="color: aliceblue;">Join us as we embark on a transformative journey together, unlocking your entrepreneurial potential and
+                shaping the future of innovation.</small>
+            </p>
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+    <main id="main">
+
+  <!-- ======= Pricing Section ======= -->
+  <section id="pricing" class="pricing section-bg">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-title">
+        <h2>Check out some of our startups</h2>
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+          <div class="box" data-aos="fade-up" data-aos-delay="300">
+            <h3>Introducing Capsule</h3>
+            <img src="{% static 'img/1.jpg' %}"  style=" height: auto; width: 80px;" srcset="">
+            <ul><hr>
+              
+              <li>Industry: Fintech</li>
+              <li>Year founded: 2021/2022</li>
+              <li>Country: Nigeria</li>
+              <li>Stage: Seed</li>
+              <li>Amount Raised: $20,000 USD</li>
+              <li>Supports Received: $800,000 USD</li>
+              <li>Awards: NITDA, NCC, Cambridge University</li>
+              <li>Exhibition Opportunity: GITEXT Dubai and LEAP,
+                Riyad Saudi Arabian</li>
+                <li>Website:www.capsuleapp.net</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+          <div class="box" data-aos="fade-up" data-aos-delay="300">
+            <h3>Introducing Afoha Solar</h3>
+            <img src="{% static 'img/start-studio-afohar-solar 8.jpg' %}"  style=" height: auto; width: 80px;" srcset="">
+            <ul><hr>
+
+              <li>Industry: Energy Generation</li>
+              <li>Year founded: 2022</li>
+              <li>Country: Nigeria</li>
+              <li>Stage: Pre-seed</li>
+              <li>Amount Raised: $5000 USD</li>
+              <li>Website: www.beyondprints.ng</li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
+          <div class="box" data-aos="fade-up" data-aos-delay="300">
+            <h3>Introducing Dohen Travels and Tours</h3>
+            <img src="{% static 'img/start-studio-dohen 6.jpg' %}"  style=" height: auto; width: 80px;" srcset="">
+            <ul><hr>
+
+              <li>Industry: Tourism</li>
+              <li>Year founded: 2020/2021</li>
+              <li>Country: Nigeria</li>
+              <li>Stage: Pre-seed</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mt-4 mt-lg-0"> <br>
+          <div class="box" data-aos="fade-up" data-aos-delay="300">
+            <h3>Introducing Bidverse</h3>
+            <img src="{% static 'img/start-studio-bidverse 9.jpg' %}"  style=" height: auto; width: 80px;" srcset="">
+            <ul><hr>
+              <li>Industry: Additive Manufacturing</li>
+              <li>Year founded: 2022/2023</li>
+              <li>Country: Nigeria and Germany</li>
+              <li>Stage: Pre-Seed</li>
+              <li>Amount Raised: $7000</li>
+              <li>Exhibition Opportunity: Paris, France</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mt-4 mt-lg-0"> <br>
+          <div class="box" data-aos="fade-up" data-aos-delay="300">
+            <h3>Introducing CiSu Consulting</h3>
+            <img src="{% static 'img/start-studio-circus 7.jpg' %}"  style=" height: auto; width: 80px;" srcset="">
+            <ul><hr>
+              <li>Industry: Consulting</li>
+              <li>Year founded: 2020</li>
+              <li>Country: Nigeria</li>
+              <li>Stage: Post-Revenue</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mt-4 mt-lg-0"><br>
+          <div class="box" data-aos="fade-up" data-aos-delay="300">
+            <h3>Introducing Chicknet</h3>
+            <img src="{% static 'img/start-studio-chickenet 2.jpg' %}"  style=" height: auto; width: 80px;" srcset="">
+            <ul><hr>
+              <li>Industry: Poultry</li>
+              <li>Year founded: 2022/2023</li>
+              <li>Country: Nigeria</li>
+              <li>Stage: Pre-seed</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="section-title"><br><br>
+          <h2>How we can support you</h2>
+        </div>
+  
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 mt-4 mt-lg-0"><br>
+            <div class="box" data-aos="fade-up" data-aos-delay="300">
+              <h3 style="color: rgb(35, 137, 93)" ;>Shaping Your Ideas into Thriving
+                Businesses through Startup
+                PracticePad</h3>
+        <p><hr>
+         Are you an aspiring entrepreneur with a disruptive tech or tech-enabled idea? Or perhaps you havea unique non-tech concept that
+         has the potential to make waves in the market? Look no further! TheStartup Practicepad Program,
+         offered by Start Studio Incubator, is here to help you transform your business dreams into a 
+         reality.... <a class="more" href="#">Read More</a></p>
+              <div class="btn-wrap">
+                <a href="{% url 'form' %}" class="btn-buy">Apply Here</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-4 mt-lg-0"><br>
+            <div class="box" data-aos="fade-up" data-aos-delay="300">
+              <h3 style="color: rgb(35, 137, 93)"; >Unlocking your Startup’s Potential
+                through Startup LaunchPad</h3>
+          <p><hr>
+           Congratulations on shaping your
+           business idea and developing a
+           customer-centric Minimum Viable
+           Product (MVP)! Now it's time to
+           take your startup to the next level
+           and establish a strong market
+           presence. The Startup Launchpad
+           program offered by Start Studio
+           Incubator is designed to guide you
+           through the crucial stage of
+           implementing your Go-To-Market
+           Strategy (GTMS) and accelerating
+           your startup's growth.. <a class="more" href="#">Read More</a>
+          </p>
+              <div class="btn-wrap">
+                <a href="{% url 'form' %}" class="btn-buy">Apply Here</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-4 mt-lg-0"><br>
+            <div class="box" data-aos="fade-up" data-aos-delay="300">
+              <h3 style="color: rgb(35, 137, 93);">Fast-track your Startup’s Growth
+                through Startup AccelerationPad</h3>
+               <p><hr>
+                Congratulations on successfully
+                launching your startup and gaining
+                initial traction in the market! Now
+                it's time to take your business to the
+                next level and accelerate its
+                growth. The Accelerationpad
+                Program offered by Start Studio
+                Incubator is designed to provide
+                intensive support, mentorship, and
+                resources to help you scale your
+                startup and achieve rapid
+                expansion... <a class="more" href="#">Read More</a>
+
+ 
+               </p>
+              <div class="btn-wrap">
+                <a href="{% url 'form' %}" class="btn-buy">Apply Here</a>
+              </div>
+            </div>
+          </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Pricing Section -->
+
+
+
+   
+
+    <!-- ======= About Section ======= -->
+   <section id="about" class="about section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row no-gutters">
+          <div style="text-align: center;"></div>
+            <div class="content">
+              
+              <a href="#about" class="about-btn"><span>About us</span> <i class="bx bx-chevron-right"></i></a>
+              <p>
+                At Start Studio Incubator, we are passionate about nurturing innovation and fostering the growth of
+startups. Our mission is to provide aspiring and existing entrepreneurs with the necessary resources,
+mentorship, and support to turn their disruptive ideas into successful businesses.
+              </p>
+              <p>
+                Through our comprehensive programs, we empower entrepreneurs to shape their ideas, validate their
+business models, develop go-to-market strategies, and accelerate their growth. We believe in inclusivity,
+catering to both tech and non-tech startups across various industries and sectors.
+              <p>
+                Backed by the Center for Strategic Enterprise Development (CSED) Ltd/GTe, Start Studio Incubator has a
+track record of success in identifying and nurturing high-potential startups. Our vibrant ecosystem, expert
+mentors, and industry connections create an environment conducive to innovation and entrepreneurial
+success.
+              </p>
+              <p>
+                Join us at Start Studio Incubator and be part of a community dedicated to igniting innovation and shaping
+the future.
+              </p>
+          
+            </div>
+          </div>
+          
+    </section><!-- End About Section -->
+
+   
+
+   <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg ">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Programs</h2>
+          <h2 style="font-size: larger;">Startup Practicepad: Shape Your Ideas into Thriving Businesses</h2>
+          <p>Are you an aspiring entrepreneur with a disruptive tech or tech-enabled idea? Or perhaps you have a
+            unique non-tech concept that has the potential to make waves in the market? Look no further! The Startup
+            Practicepad Program, offered by Start Studio Incubator, is here to help you transform your business dreams
+            into a reality.</p>
+        </div>
+
+        <div class="section-title">
+          <h1 style="font-size: large; text-align: start;"> Program Overview:</h1>
+          <p>The Startup Practicepad Program is a four-week incubation program designed to provide aspiring and
+            existing entrepreneurs with the essential tools and guidance needed to turn their ideas into sustainable
+            business models. Our program caters to individuals across various industries and sectors, both in the tech
+            and non-tech domains.</p><br>
+        </div>
+
+        <div class="section-title">
+          <h1 style="font-size: large; text-align: start;">What You'll Learn:</h1>
+          <ul>
+           <li style="text-align: start;">Shaping Business Ideas: Discover how to transform your innovative ideas into concrete business
+            models that have the potential to thrive in the market.</li><br>
+           <li style="text-align: start;">Building MVPs: Learn how to develop customer-centric Minimum Viable Products (MVPs) that
+            resonate with your target audience and lay a strong foundation for success.</li><br>
+           <li style="text-align: start;">Crafting GTMS: Master the art of creating effective Go-To-Market Strategies (GTMS) that will help
+            you gain a competitive edge and capture your target market.</li><br>
+            <li style="text-align: start;">Customer Acquisition: Understand the different phases of the customer acquisition journey and
+              learn strategies to acquire and retain customers effectively.</li><br>
+             <li style="text-align: start;">Pitching to Investors: Gain invaluable insights on how to craft a winning pitch deck that will
+                captivate investors and secure the funding your startup needs.</li><br>
+                <li style="text-align: start;">Technical Sessions with Seasoned Entrepreneurs: Benefit from exclusive sessions with successful
+                  entrepreneurs who have walked the path before you. Learn from their experiences, challenges,
+                  and triumphs.</li><br>
+        </ul>
+        </div>
+
+        <div class="section-title">
+          <h1 style="font-size: large; text-align: start;">Why Apply to Startup Practicepad:</h1>
+          <ul>
+           <li style="text-align: start;">Comprehensive Program: The Startup Practicepad program offers a comprehensive curriculum
+            that covers all essential aspects of turning your ideas into thriving businesses. From idea validation
+            to market entry strategies, we've got you covered.</li><br>
+           <li style="text-align: start;">Industry-agnostic: Whether you have a tech or non-tech concept, Startup Practicepad caters to
+            entrepreneurs from diverse industries and sectors. We believe that innovation knows no
+            boundaries.</li><br>
+           <li style="text-align: start;">Expert Mentors: Benefit from one-on-one mentorship sessions with experienced entrepreneurs,
+            industry experts, and domain specialists who will provide valuable insights and guidance
+            throughout the program.</li><br>
+            <li style="text-align: start;">Vibrant Ecosystem: Join a supportive community of like-minded entrepreneurs who are on a
+              similar journey. Network, collaborate, and learn from each other in a dynamic and engaging
+              environment.</li><br>
+             <li style="text-align: start;">Practical Approach: The Startup Practicepad program focuses on practical learning, providing you
+              with hands-on experience and real-world strategies that can be immediately applied to your
+              startup.</li><br>
+        </ul>
+        <p style="text-align: start;">Embark on your entrepreneurial journey with the Startup Practicepad program at Start Studio Incubator
+          and transform your business dreams into reality. Apply now and shape the future of innovation.</p><br>
+        </div>
+
+        <div class="section-title">
+          <h2 style="font-size: larger;">Startup Launchpad: Unlock Your Startup's Potential</h2>
+          <p style="text-align: justify;">Congratulations on shaping your business idea and developing a customer-centric Minimum Viable
+            Product (MVP)! Now it's time to take your startup to the next level and establish a strong market presence.
+            The Startup Launchpad program offered by Start Studio Incubator is designed to guide you through the
+            crucial stage of implementing your Go-To-Market Strategy (GTMS) and accelerating your startup's growth.</p><br>
+
+          <h1 style="font-size: large; text-align: start;">What is the Startup Launchpad Program?</h1>
+          <p style="text-align: justify;">The Startup Launchpad Program is a transformative initiative that provides startups with essential
+            resources and support to successfully navigate their market entry. We understand the challenges that
+            startups face in establishing their presence and gaining traction, and our program is tailored to address
+            these specific needs.</p><br>
+
+            <ul>
+              <li style="text-align: start;">Fuel Your Startup's Growth: By joining the Startup Launchpad program, you gain access to a range
+                of services and support that will accelerate your startup's growth and maximize your chances of
+                success.</li><br>
+              <li style="text-align: start;">Business Registration: We understand the legal complexities involved in registering a startup. Our
+                team of experts will guide you through the process, ensuring that you establish a solid foundation
+                for your business.</li><br>
+              <li style="text-align: start;">Website or App Development: A visually appealing and user-friendly online presence is essential
+                for any startup. Our expert team of developers will create a website or app that showcases your
+                product or service and engages your target audience.</li><br>
+               <li style="text-align: start;">Graphics Design: Stand out from the competition with eye-catching graphics and designs that
+                reflect your brand identity and captivate your customers.</li><br>
+                <li style="text-align: start;">Customer Acquisition Support: Acquiring and retaining customers is vital for your startup's
+                  success. We'll provide you with strategies and guidance on how to effectively acquire customers,
+                  expand your user base, and drive growth.</li><br>
+                 <li style="text-align: start;">Competitions/Grant Applications Support: Gain a competitive edge by receiving assistance with
+                  competitions and grant applications. We'll help you navigate the application process, increasing
+                  your chances of securing additional funding and resources.</li><br>
+           </ul>
+                 
+           <h1 style="font-size: large; text-align: start;">Why Choose the Startup Launchpad Program?</h1>
+           <ul>
+            <li style="text-align: start;">Tailored Support: The Startup Launchpad program provides personalized guidance and support
+              tailored to your startup's unique needs. We understand that every business is different, and our
+              program is designed to address your specific challenges and opportunities.</li><br>
+            <li style="text-align: start;">Cost-Effective Solutions: We offer our services at competitive rates, ensuring that you receive
+              exceptional value for your investment. We understand the budget constraints startups often face
+              and strive to provide cost-effective solutions.</li><br>
+            <li style="text-align: start;">Accelerated Growth: By leveraging our expertise and industry connections, you'll benefit from
+              accelerated growth opportunities. We'll help you navigate the competitive business landscape and
+              make a lasting impact in the market.</li><br>
+             <li style="text-align: start;">Networking and Collaboration: Join a vibrant community of like-minded entrepreneurs and
+              industry professionals. Build valuable connections, collaborate, and learn from others who share
+              your passion for success.</li><br>
+         </ul>
+         <p style="text-align: start">Join the Startup Launchpad Program Today! Don't miss this opportunity to fuel your startup's growth and
+          solidify your position in the market. The Startup Launchpad program at Start Studio Incubator is here to
+          support you every step of the way. Take advantage of our resources, guidance, and expertise to make your
+          startup a success.</p><br><br>
+
+          <div class="section-title">
+            <h2 style="font-size: larger;">Accelerationpad Program: Fast-Track Your Startup's Growth</h2>
+            <p style="text-align: justify;">Congratulations on successfully launching your startup and gaining initial traction in the market! Now it's
+              time to take your business to the next level and accelerate its growth. The Accelerationpad Program offered
+              by Start Studio Incubator is designed to provide intensive support, mentorship, and resources to help you
+              scale your startup and achieve rapid expansion.</p><br>
+  
+            <h1 style="font-size: large; text-align: start;">What is the Accelerationpad Program?</h1>
+            <p style="text-align: justify;">The Accelerationpad Program is an intensive startup accelerator designed to propel your business forward.
+              Through this program, you'll receive tailored guidance, mentorship from industry experts, access to a
+              network of investors, and specialized resources to fast-track your startup's growth.</p><br>
+
+
+            <h1 style="font-size: large; text-align: start;">Key Benefits of the Accelerationpad Program:</h1>
+          <ul>
+           <li style="text-align: start;">Mentorship and Guidance: Work closely with experienced mentors who have a deep
+            understanding of your industry and can provide valuable insights and guidance. They will help you
+            refine your business strategy, optimize your operations, and overcome challenges along the way.</li><br>
+           <li style="text-align: start;">Investor Network: Gain access to a vast network of potential investors, including venture
+            capitalists, angel investors, and strategic partners. Our accelerator program provides opportunities
+            to pitch your startup, secure funding, and forge valuable partnerships.</li><br>
+           <li style="text-align: start;">Specialized Workshops and Resources: Participate in workshops, seminars, and training sessions
+            specifically designed to address the needs of growing startups. Topics may include fundraising
+            strategies, marketing tactics, financial management, team building, and more. Additionally, you'll
+            have access to a range of resources, such as market research reports, industry trends, and best
+            practices.</li><br>
+            <li style="text-align: start;">Collaborative Environment: Engage with a community of fellow entrepreneurs who are also on
+              their growth journey. Collaborate, share insights, and learn from one another's experiences.
+              Building connections within the startup ecosystem can open doors to potential partnerships,
+              collaborations, and knowledge-sharing opportunities.</li><br>
+             <li style="text-align: start;">Pitching to Investors: Gain invaluable insights on how to craft a winning pitch deck that will
+                captivate investors and secure the funding your startup needs.</li><br>
+                <li style="text-align: start;">Access to Service Providers: Leverage our network of trusted service providers who can support
+                  your startup's needs. This includes legal, accounting, marketing, and technology services, among
+                  others. Benefit from their expertise and gain a competitive advantage.</li><br>
+
+                  <h1 style="font-size: large; text-align: start;">Why Choose the Accelerationpad Program?</h1>
+                  <li style="text-align: start;">Rapid Growth: The Accelerationpad Program is specifically designed to help startups achieve
+                    rapid and sustainable growth. Our comprehensive support and resources will enable you to scale
+                    your operations, expand your market reach, and increase your revenue.</li><br>
+                   <li style="text-align: start;">Expertise and Network: Benefit from the knowledge and connections of experienced mentors and
+                    industry professionals. Their insights and network can significantly impact your startup's trajectory,
+                    opening doors to new opportunities and potential customers.</li><br>
+                   <li style="text-align: start;">Funding Opportunities: Access to our investor network increases your chances of securing
+                    funding for your startup. Investors are actively seeking innovative and promising ventures, and our
+                    program positions you for investment success.</li><br>
+                    <li style="text-align: start;">Accountability and Milestone Tracking: Through regular check-ins, progress assessments, and
+                      milestone tracking, we keep you accountable and focused on achieving your goals. This structured
+                      approach ensures that you stay on track and make the necessary adjustments to drive your startup's
+                      growth.</li><br>
+                      <li style="text-align: start;">Continued Support: Even after completing the program, you'll remain part of our startup
+                        ecosystem, accessing ongoing support and mentorship. We are committed to your long-term
+                        success and will continue to provide guidance as your business evolves.</li><br>
+
+                    <h1 style="font-size: large; text-align: start;">Apply for the Accelerationpad Program Today!</h1>
+            <p style="text-align: justify;">If you're ready to accelerate the growth of your startup and unlock its full potential, the Accelerationpad
+              Program at Start Studio Incubator is your next step. Take advantage of our intensive support, expert
+              mentorship, and access to a network of investors to propel your business forward.</p><br>
+              <p style="text-align: justify;">To apply for the Accelerationpad Program, please submit a comprehensive application detailing your
+                startup's progress, market traction, team, and growth potential. Our selection process is competitive, and
+                we're looking for startups with a strong foundation and high growth potential.</p><br>
+                     
+                       
+        </ul>
+        </div>
+
+         
+      </div>
+    </section><!-- End Services Section -->
+
+  
+ <!-- ======= Testimonials Section ======= -->
+ <section id="testimonials" class="testimonials">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title">
+      <h2>Testimonials</h2>
+      <h2 style="font-size: large;">What our Startups are Saying</h2>
+    </div>
+
+    <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <img src="{% static 'img/faith.jpg' %}" class="testimonial-img" alt="">
+              <h3>Faith Esla Anzaki</h3>
+              <h4>Founder/CEO, Afoha Solar</h4>
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                "The Start Studio Incubator's Practicepad was really a pivotal moment for me and my company. I joined the program
+at the transition of my business from an idea to a startup, and the great contributions of our mentors in the cohort
+helped me gain clarity. I got access to resources and unique information that helped me structure my company. As a
+result, I was able to secure my first $5,000 USD grant. The support and guidance I received during the Practicepad
+Cohort 1 were invaluable, and I'm grateful for the opportunities it opened up for my business.".
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+        </div><!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <img src="{% static 'img/Collins.jpg' %}" class="testimonial-img" alt="">
+              <h3>Collins Lakoju</h3>
+              <h4>Founder, Celaks Agro Allied Ventures</h4>
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                “I embarked on this journey with plenty suspicions, thinking that after the first and maybe second season, some
+                 financial demands will be made on me, before I can proceed. But I was surprised that you guys kept at it without any
+                 such demands, dishing us such quality content that you can only get in some of those prestigious international business
+                 schools.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+            </div>
+          </div>
+        </div><!-- End testimonial item -->
+
+        <div class="">
+          <!-- <div class="testimonial-wrap">
+            <div class="testimonial-item">
+              <img src="static/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+              <h3>Jena Karlis</h3>
+              <h4>Store Owner</h4>
+              <p>
+                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+              </p>
+            </div>
+          </div> -->
+        </div>
+
+            
+      
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+    
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Team</h2>
+          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p> -->
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="{% static 'img/team/Freeman (5).jpg' %}" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Nancy Nnaji</h4>
+                <span>Executive
+                      Producer, Money-line with
+                      Nancy on AIT & Chair, CSED</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="{% static 'img/team/Freeman (2).jpeg' %}" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Charles Okoli, PhD.</h4>
+                <span>Managing Partner, CiSu</span>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <div class="member-img">
+                <img src="{% static 'img/team/Freeman (4).jpg' %}" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Farida Kabir</h4>
+                <span>Group Head,
+                  Growth & Brand, Sudo Africa</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="{% static 'img/team/Freeman (1).jpg' %}" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Divine Freeman</h4>
+                <span>CEO, Center
+                  for Strategic Enterprise
+                  Development (CSED)</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="{% static 'img/team/Freeman (3).jpg' %}" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Lariat Alhassan</h4>
+                <span>CEO,
+                  Larclux Paint</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="{% static 'img/team/Freeman (6).jpg' %}" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Paul Alaje</h4>
+                <span>CEO, Arith &
+                  Paul</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="{% static 'img/team/Freeman (1).jpeg' %}" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Dr. Sam Uche Anyamele</h4>
+                <span>ED,
+                  Department for Strategic
+                  Enterprise Education, CSED</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="{% static 'img/team/Freeman (3).jpeg' %}" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Emmanuel Ezeoka</h4>
+                <span>CEO, Subway
+                  Lab</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="{% static 'img/team/mary.jpg' %}" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Mary Awoniyi</h4>
+                <span>Manager, Start Studio
+                  Incubator</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="{% static 'img/team/8154dd1f-d47f-4aba-8750-672a85997c5b.jpg' %}" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Chioma Okorie</h4>
+                <span>Senior Manager, Partnership &
+                  Collaboration, CSED</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="{% static 'img/team/alaere.JPG' %}" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4>Alaere Ogionwo</h4>
+                <span>Digital Marketing
+                  Specialist</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="400">
+              <div class="member-img">
+                <img src="{% static 'img/team/joy.jpg' %}" class="img-fluid" alt="">
+                
+              </div>
+              <div class="member-info">
+                <h4>Joy Samuel</h4>
+                <span>Program Assistant</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>We are excited to connect with you and answer any questions you may have. Reach out to us through the
+            following channels:</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-6">
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="info-box">
+                  <i class="bx bx-map"></i>
+                  <h3>Our Address</h3>
+                  <p>Nigeria: 1, M.M Alkali Street, off 442 Crescent CITEC Villas, Gwarinpa Abuja.</p>
+                  <p>Germany: Gurlittstr. 1, 24106, Kiel.</p>
+                  <p>UK: 124 City Road, London, EC1V 2NX, United Kingdom.</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box mt-4">
+                  <i class="bx bx-envelope"></i>
+                  <h3>Email Us</h3>
+                  <a href="mailto:admin@csed.org.ng">admin@csed.org.ng</a>
+                  <a href="mailto:www.csed.org.ng/start-studio">www.csed.org.ng/start-studio</a>
+                  <!-- <p>admin@csed.org.ng <br>www.csed.org.ng/start-studio</p> -->
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box mt-4">
+                  <i class="bx bx-phone-call"></i>
+                  <h3>Call Us</h3>
+                  <p>+2348030600827,
+                    +2348134909922<br>+4915216856767 <br>+44 777 011 0537</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <form action="{% url 'contactUs' %}" method="POST" role="" class="php-email-form">
+              {% csrf_token %}
+              <div class="row">
+                <div class="col form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              {% if messages %}
+              <div class="alert alert-success">
+                  {% for message in messages %}
+                           <p style="text-align: center;">{{ message }}</p>
+                             {% endfor %}
+                                   </div>
+                                {% endif %}
+              <!-- <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div> -->
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>csed,org.ng <br>/start-studio<span>.</span></h3>
+            <p>
+              1, M.M Alkali Street, <br>
+              off 442 Crescent CITEC Villas,<br>
+              Gwarinpa Abuja.<br><br>
+              <strong>Phone:</strong> +2348030600827,<br>
+              <strong>Email:</strong> www.csed.org.ng/start-studio<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#Home">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Programs</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Capsule</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#"></a>Afoha Solar</li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Dohen Travels and Tours</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Bidverse</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Consulting</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Chicknet</a></li>
+              
+            </ul>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>csed,org.ng/start-studio</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/presento-bootstrap-corporate-template/ -->
+         <p style="color: crimson;"> Designed by SaintWeb</p>
+        </div>
+      </div>
+      <div class="social-links text-center text-md-end pt-3 pt-md-0">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'vendor/purecounter/purecounter_vanilla.js' %}"></script>
+  <script src="{% static 'vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/php-email-form/validate.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'js/main.js' %}"></script>
+
+</body>
+
+</html>
