@@ -84,7 +84,7 @@ def form(request):
         
         try:
             # Change the recipient email to the desired address
-            recipient_email = "admin@csed.org.ng"
+            recipient_email = "startstudiocsed@gmail.com"
             
             # Change the email sender to a valid email address on your server
             from_email = email
